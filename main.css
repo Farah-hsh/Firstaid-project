@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color:#f8f5f5;
+}
+header{
+    background-color:  rgb(255, 255, 255);
+    border: 2px solid #fbfbfb;
+    height: 82px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+header img{
+    height: 80px;
+}
+.signingup {
+    margin-right: 1260px;
+    margin-left: 10px;
+    margin-top: -65px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+.signingup button{
+    background-color: #eae7e7;
+    width: 90px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.signingup button a{
+    text-decoration: none;
+    color:rgb(6, 6, 6) ;
+}
+.signingup  :hover{
+    background-color: #cac7c7;
+    transform: scale(0.89);
+    transition: 0.4s; 
+    text-decoration: none;
+}
+
+nav{
+    background-color:#606C5D ; 
+    height: 80px;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+}
+.navbaritems a{
+    color: #e3dddd;
+    font-size: larger;
+    text-decoration: none;
+    
+}
+.navbaritems a:hover{
+    color:#f8eeee;
+    margin-bottom: 10px;
+    transition: 0.4s;  
+}
+
+.navbaritems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px; 
+    gap: 28px; 
+}
+
+
+video{
+    margin-right: 730px;
+    margin-top: -200px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.aboutfirstaid{
+    width: 520px;
+    height: 350px;
+    background-color: #e0dfdb;
+    margin-right: 80px;
+    margin-top: -400px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+.main2{
+    font-size: large ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main3{
+    font-size: large ;
+    margin-right: 500px;
+    margin-top: 20px;
+}
+.card{
+    border: 1px solid #9b9b9a;
+    padding: 30px;
+    border-radius: 2px;
+    width: 400px;
+    height: 430px;
+    background-color: #dce0db;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.link button{
+    width: 150px;
+    height: 80px;
+    border-radius: 12px;
+    margin-right: 650px;
+    margin-top: 50px;
+    font-size: larger;
+}
+.link button:hover{
+    background-color: #cac7c7;
+    transform: scale(0.89);
+    transition: 0.4s; 
+    text-decoration: none;
+
+}
+.link button a{
+    color: #070707;
+    text-align: center;
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+}
+h4{
+    padding-right: 6px;
+    color: #031801;
+    
+}
+h5{
+    
+    padding-right: 8px;
+    color: #073103;
+    
+}
+
+footer{
+    background-color: #dce0db;
+    height: 250px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #606C5D;
+  padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #0c0c0c;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.footer-names{
+    text-align: center;
+    color: #ffffff;
+}
